@@ -1,0 +1,1293 @@
+{
+    "slot_types": {
+        "0x0": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x3": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "0x33": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00"
+        ],
+        "0x34": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+            "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+        ],
+        "0x35": [
+            "000000000000000000000000ff00000000000000000000000000000000000000",
+            "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+        ],
+        "0x36": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+            "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+        ],
+        "0x37": [
+            "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x38": [
+            "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x39": [
+            "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x3a": [
+            "000000000000000000000000000000000000000000000000000000000000ffff",
+            "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000"
+        ],
+        "0x3b": [
+            "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x3c": [
+            "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+        ],
+        "0x3d": [
+            "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+        ]
+    },
+    "storage_accesses": {
+        "0x1020": {
+            "slot": "0x39",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1069": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffff0000000000000000000000000000000000000000ffff"
+            ]
+        },
+        "0x1087": {
+            "slot": "0x3a",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000",
+                "ffffffffffffffffffff0000000000000000000000000000000000000000ffff"
+            ]
+        },
+        "0x1099": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff"
+            ]
+        },
+        "0x10a0": {
+            "slot": "0x3",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x10b8": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x1105": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x118e": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1262": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x127b": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x12a2": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x13a6": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x1406": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1462": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x146b": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x14e1": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x153e": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1547": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x154b": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x15b3": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x15c8": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1650": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1680": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x16b3": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+        },
+        "0x16bb": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x16d0": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x16d9": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x16e3": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x16f0": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x16fb": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1748": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1766": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1870": {
+            "slot": "0x34",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x189d": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x18a3": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x18bf": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x18c6": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1914": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1932": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1967": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x19ae": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x19cc": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1ac6": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1ae1": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1b0e": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1b13": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1b19": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1b67": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1bc6": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ff00"
+            ]
+        },
+        "0x1be5": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0x1c28": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ff00"
+            ]
+        },
+        "0x1c3b": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff"
+            ]
+        },
+        "0x1c4f": {
+            "slot": "0x3",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0x1c54": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x1c5d": {
+            "slot": "0x33",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff",
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x1c67": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff"
+            ]
+        },
+        "0x1c6e": {
+            "slot": "0x3",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1cb1": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1cbd": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1db3": {
+            "slot": "0x39",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1e07": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1e18": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1e35": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1e4e": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x1ea5": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1f7a": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x204b": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2064": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x208d": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x20cc": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x20ef": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x214e": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x21b4": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffff0000000000000000000000000000000000000000ffff"
+            ]
+        },
+        "0x21d8": {
+            "slot": "0x3a",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000",
+                "ffffffffffffffffffff0000000000000000000000000000000000000000ffff"
+            ]
+        },
+        "0x22ce": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ffff"
+            ]
+        },
+        "0x2328": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x237b": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x25ff": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+        },
+        "0x2609": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2624": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x262d": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2637": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2642": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x264b": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2655": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x26e5": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x26eb": {
+            "slot": "0x3d",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2716": {
+            "slot": "0x3d",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x27b5": {
+            "slot": "0x3b",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x28b9": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffff0000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0x28db": {
+            "slot": "0x33",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00",
+                "ffffffffffffffffffffff0000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0x2912": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000ffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x2977": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x2cec": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x2cfc": {
+            "slot": "0x3a",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ffff",
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0x2d36": {
+            "slot": "0x36",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2db9": {
+            "slot": "0x38",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2ec8": {
+            "slot": "0x37",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2fb1": {
+            "slot": "0x36",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x2fcd": {
+            "slot": "0x36",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x2fec": {
+            "slot": "0x38",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x2ff2": {
+            "slot": "0x37",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x300e": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x3020": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x305d": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x3129": {
+            "slot": "0x34",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x3145": {
+            "slot": "0x34",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x314a": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0x3228": {
+            "slot": "0x34",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x3271": {
+            "slot": "0x35",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x32b8": {
+            "slot": "0x36",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x3371": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x33ac": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x33e7": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x3409": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x3440": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x345b": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x3474": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x348d": {
+            "slot": "0x3d",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x3491": {
+            "slot": "0x3d",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x34ac": {
+            "slot": "0x3d",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+            ]
+        },
+        "0x34ae": {
+            "slot": "0x3d",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x36ac": {
+            "slot": "0x35",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ff00000000000000000000000000000000000000"
+            ]
+        },
+        "0x36af": {
+            "slot": "0x36",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x49b0": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x49e8": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x4a20": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x4a58": {
+            "slot": "0x3c",
+            "opcode": "SSTORE",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x95a": {
+            "slot": "0x35",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x986": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ffff"
+            ]
+        },
+        "0x99b": {
+            "slot": "0x34",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xaa4": {
+            "slot": "0x35",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0xac0": {
+            "slot": "0x35",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0xb1b": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+            ]
+        },
+        "0xb23": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xb38": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xb41": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xb4b": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xb58": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xb63": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xbb1": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xbcf": {
+            "slot": "0x3c",
+            "opcode": "SLOAD",
+            "is_base_slot": false,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xd5a": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xdb9": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ff00"
+            ]
+        },
+        "0xdd8": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0xe1b": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ff00"
+            ]
+        },
+        "0xe2e": {
+            "slot": "0x3",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff"
+            ]
+        },
+        "0xe42": {
+            "slot": "0x3",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0xec4": {
+            "slot": "0x33",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffff0000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0xee0": {
+            "slot": "0x33",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "0000000000000000000000ffffffffffffffffffffffffffffffffffffffff00",
+                "ffffffffffffffffffffff0000000000000000000000000000000000000000ff"
+            ]
+        },
+        "0xf4f": {
+            "slot": "0x37",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xf54": {
+            "slot": "0x38",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xf98": {
+            "slot": "0x3a",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        },
+        "0xfa5": {
+            "slot": "0x3a",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000000000000000000000000000000000000000ffff",
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000"
+            ]
+        }
+    }
+}

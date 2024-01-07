@@ -1,0 +1,17 @@
+{
+    "0x0": {
+        "0x2303b8a311C17e14aEC74400A1242301D85D49C1": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "0x4DEcA517D6817B6510798b7328F2314d3003AbAC": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "0x1c91aF03A390b4c619B444425b3119e553B5B44b": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ]
+    }
+}

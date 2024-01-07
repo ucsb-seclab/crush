@@ -1,0 +1,62 @@
+{
+    "slot_types": {
+        "0x0": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+            "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+        ],
+        "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc": [
+            "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+        ]
+    },
+    "storage_accesses": {
+        "0x112": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x121": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x1ef": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x266": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x282": {
+            "slot": "0x0",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x373": {
+            "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        }
+    }
+}

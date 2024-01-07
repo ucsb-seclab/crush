@@ -1,0 +1,40 @@
+[
+    {
+        "kind": "Proxy",
+        "pc": null,
+        "proxy_address": null,
+        "address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "window_start": 11103280,
+        "window_end": 16976770
+    },
+    {
+        "kind": "TargetStorage",
+        "pc": "0x2b7",
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "window_start": 11103280,
+        "window_end": 15202529,
+        "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+        "mask": "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+        "kind": "TargetStorage",
+        "pc": "0x2b7",
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "address": "0x2303b8a311C17e14aEC74400A1242301D85D49C1",
+        "window_start": 15202530,
+        "window_end": 15203869,
+        "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+        "mask": "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+        "kind": "TargetStorage",
+        "pc": "0x2b7",
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "address": "0x1c91aF03A390b4c619B444425b3119e553B5B44b",
+        "window_start": 15203870,
+        "window_end": 16976770,
+        "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+        "mask": "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+    }
+]

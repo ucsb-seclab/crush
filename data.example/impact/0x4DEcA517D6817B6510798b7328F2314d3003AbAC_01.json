@@ -1,0 +1,44 @@
+{
+  "attack_type": 1,
+  "slot": "0x0",
+  "window": [
+    11103281,
+    15202529
+  ],
+  "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+  "target1_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+  "target1_pc": "0x2b7",
+  "target1_alive": true,
+  "target1_window": [
+    11103280,
+    15202529
+  ],
+  "target1_slot": "0x0",
+  "target1_types": [
+    "00000000000000000000000000000000000000000000000000000000000000ff",
+    "000000000000000000000000000000000000000000000000000000000000ff00"
+  ],
+  "target1_sstores": [
+    "0x1b91",
+    "0xde3"
+  ],
+  "target2_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+  "target2_pc": null,
+  "target2_alive": true,
+  "target2_window": [
+    11103280,
+    16976770
+  ],
+  "target2_slot": "0x0",
+  "target2_types": [
+    "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+  ],
+  "is_target2_sensitive": true,
+  "is_target2_guarding_sensitive": false,
+  "target2_sloads": [
+    "0x112",
+    "0x121",
+    "0x1ef"
+  ],
+  "target2_guarded_sstores": []
+}

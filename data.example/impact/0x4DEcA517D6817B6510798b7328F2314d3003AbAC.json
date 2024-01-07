@@ -1,0 +1,269 @@
+[
+    {
+        "attack_type": 1,
+        "slot": "0x0",
+        "window": [
+            11103281,
+            15202529
+        ],
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "target1_pc": "0x2b7",
+        "target1_alive": true,
+        "target1_window": [
+            11103280,
+            15202529
+        ],
+        "target1_slot": "0x0",
+        "target1_types": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "target1_sstores": [
+            "0x1b91",
+            "0xde3"
+        ],
+        "target2_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target2_pc": null,
+        "target2_alive": true,
+        "target2_window": [
+            11103280,
+            16976770
+        ],
+        "target2_slot": "0x0",
+        "target2_types": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "is_target2_sensitive": true,
+        "is_target2_guarding_sensitive": false,
+        "target2_sloads": [
+            "0x112",
+            "0x121",
+            "0x1ef"
+        ],
+        "target2_guarded_sstores": []
+    },
+    {
+        "attack_type": 1,
+        "slot": "0x0",
+        "window": [
+            11103281,
+            15202529
+        ],
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_pc": null,
+        "target1_alive": true,
+        "target1_window": [
+            11103280,
+            16976770
+        ],
+        "target1_slot": "0x0",
+        "target1_types": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "target1_sstores": [
+            "0x282"
+        ],
+        "target2_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "target2_pc": "0x2b7",
+        "target2_alive": true,
+        "target2_window": [
+            11103280,
+            15202529
+        ],
+        "target2_slot": "0x0",
+        "target2_types": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "is_target2_sensitive": true,
+        "is_target2_guarding_sensitive": true,
+        "target2_sloads": [
+            "0x1b08",
+            "0x1b27",
+            "0x1b6a",
+            "0xd5a",
+            "0xd79",
+            "0xdbc"
+        ],
+        "target2_guarded_sstores": [
+            "0x1028"
+        ]
+    },
+    {
+        "attack_type": 1,
+        "slot": "0x0",
+        "window": [
+            15202530,
+            15203869
+        ],
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "target1_pc": "0x2b7",
+        "target1_alive": false,
+        "target1_window": [
+            11103280,
+            15202529
+        ],
+        "target1_slot": "0x0",
+        "target1_types": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "target1_sstores": [
+            "0x1b91",
+            "0xde3"
+        ],
+        "target2_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target2_pc": null,
+        "target2_alive": true,
+        "target2_window": [
+            11103280,
+            16976770
+        ],
+        "target2_slot": "0x0",
+        "target2_types": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "is_target2_sensitive": true,
+        "is_target2_guarding_sensitive": false,
+        "target2_sloads": [
+            "0x112",
+            "0x121",
+            "0x1ef"
+        ],
+        "target2_guarded_sstores": []
+    },
+    {
+        "attack_type": 1,
+        "slot": "0x0",
+        "window": [
+            15202530,
+            15203869
+        ],
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "target1_pc": "0x2b7",
+        "target1_alive": false,
+        "target1_window": [
+            11103280,
+            15202529
+        ],
+        "target1_slot": "0x0",
+        "target1_types": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "target1_sstores": [
+            "0x1b91",
+            "0xde3"
+        ],
+        "target2_address": "0x2303b8a311C17e14aEC74400A1242301D85D49C1",
+        "target2_pc": "0x2b7",
+        "target2_alive": true,
+        "target2_window": [
+            15202530,
+            15203869
+        ],
+        "target2_slot": "0x0",
+        "target2_types": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "is_target2_sensitive": true,
+        "is_target2_guarding_sensitive": false,
+        "target2_sloads": [
+            "0x247",
+            "0x332",
+            "0xc7"
+        ],
+        "target2_guarded_sstores": []
+    },
+    {
+        "attack_type": 1,
+        "slot": "0x0",
+        "window": [
+            15203870,
+            16976770
+        ],
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "target1_pc": "0x2b7",
+        "target1_alive": false,
+        "target1_window": [
+            11103280,
+            15202529
+        ],
+        "target1_slot": "0x0",
+        "target1_types": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "target1_sstores": [
+            "0x1b91",
+            "0xde3"
+        ],
+        "target2_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target2_pc": null,
+        "target2_alive": true,
+        "target2_window": [
+            11103280,
+            16976770
+        ],
+        "target2_slot": "0x0",
+        "target2_types": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "is_target2_sensitive": true,
+        "is_target2_guarding_sensitive": false,
+        "target2_sloads": [
+            "0x112",
+            "0x121",
+            "0x1ef"
+        ],
+        "target2_guarded_sstores": []
+    },
+    {
+        "attack_type": 1,
+        "slot": "0x0",
+        "window": [
+            15203870,
+            16976770
+        ],
+        "proxy_address": "0x4DEcA517D6817B6510798b7328F2314d3003AbAC",
+        "target1_address": "0x35dD16dFA4ea1522c29DdD087E8F076Cad0AE5E8",
+        "target1_pc": "0x2b7",
+        "target1_alive": false,
+        "target1_window": [
+            11103280,
+            15202529
+        ],
+        "target1_slot": "0x0",
+        "target1_types": [
+            "00000000000000000000000000000000000000000000000000000000000000ff",
+            "000000000000000000000000000000000000000000000000000000000000ff00"
+        ],
+        "target1_sstores": [
+            "0x1b91",
+            "0xde3"
+        ],
+        "target2_address": "0x1c91aF03A390b4c619B444425b3119e553B5B44b",
+        "target2_pc": "0x2b7",
+        "target2_alive": true,
+        "target2_window": [
+            15203870,
+            16976770
+        ],
+        "target2_slot": "0x0",
+        "target2_types": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+        ],
+        "is_target2_sensitive": true,
+        "is_target2_guarding_sensitive": false,
+        "target2_sloads": [
+            "0x1b67",
+            "0xd5a"
+        ],
+        "target2_guarded_sstores": []
+    }
+]

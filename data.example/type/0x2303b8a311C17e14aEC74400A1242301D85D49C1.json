@@ -1,0 +1,87 @@
+{
+    "slot_types": {
+        "0x0": [
+            "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+            "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+        ],
+        "0x2": [
+            "00000000000000000000000000000000000000000000000000000000000000ff"
+        ]
+    },
+    "storage_accesses": {
+        "0x17f": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x1b4": {
+            "slot": "0x0",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff",
+                "ffffffffffffffffffffffff0000000000000000000000000000000000000000"
+            ]
+        },
+        "0x1c1": {
+            "slot": "0x2",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x1cf": {
+            "slot": "0x2",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "00000000000000000000000000000000000000000000000000000000000000ff",
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00"
+            ]
+        },
+        "0x1dc": {
+            "slot": "0x2",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00ff"
+            ]
+        },
+        "0x1ea": {
+            "slot": "0x2",
+            "opcode": "SSTORE",
+            "is_base_slot": true,
+            "access_masks": [
+                "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x247": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0x332": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        },
+        "0xc7": {
+            "slot": "0x0",
+            "opcode": "SLOAD",
+            "is_base_slot": true,
+            "access_masks": [
+                "000000000000000000000000ffffffffffffffffffffffffffffffffffffffff"
+            ]
+        }
+    }
+}
