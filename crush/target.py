@@ -12,7 +12,7 @@ from greed.exploration_techniques.other import MstoreConcretizer
 from greed.utils.exceptions import GreedException
 from greed.utils.files import load_csv_multimap
 from greed.utils.extra import gen_exec_id
-from greed.solver.shortcuts import BVV, BV_Concat, Equal, BV_UGE
+from greed.solver.shortcuts import BVV, BV_Concat, Equal, BV_ULE
 
 from crush import globals
 from crush.globals import w3
@@ -194,16 +194,16 @@ class Target(object):
         callsite_state = self.callsite_state(block_number)
         calldata = raw_calldata
         # calldata -> bvv bytes
-        offset = callsite_state.curr_stmt.argsOffset_val
-        length = callsite_state.curr_stmt.argsSize_val
+        buffer_offset = callsite_state.curr_stmt.argsOffset_val
+        buffer_length = callsite_state.curr_stmt.argsSize_val
 
         calldata_length = BVV(len(calldata) // 2, 256)
 
-        if not callsite_state.solver.is_formula_sat(BV_UGE(calldata_length, length)):
+        if not callsite_state.solver.is_formula_sat(BV_ULE(calldata_length, buffer_length)):
             # be dumb, skim off a few bytes and retry
             calldata = calldata[:-32]
             calldata_length = BVV(len(calldata) // 2, 256)
-            while not callsite_state.solver.is_formula_sat(BV_UGE(calldata_length, length)):
+            while not callsite_state.solver.is_formula_sat(BV_ULE(calldata_length, buffer_length)):
                 calldata = calldata[:-32]
                 calldata_length = BVV(len(calldata) // 2, 256)
 
@@ -211,15 +211,15 @@ class Target(object):
             log.error("Could not fit calldata in memory buffer")
             return raw_calldata
         
-        callsite_state.solver.add_path_constraint(BV_UGE(calldata_length, length))
-        offset = concretize(callsite_state, offset, force=True)
-        length = concretize(callsite_state, length, force=True)
+        callsite_state.solver.add_path_constraint(BV_ULE(calldata_length, buffer_length))
+        buffer_offset = concretize(callsite_state, buffer_offset, force=True)
+        buffer_length = concretize(callsite_state, buffer_length, force=True)
 
         sym_calldata = BV_Concat([BVV(int(calldata[i:i+2], 16), 8) for i in range(0, len(calldata), 2)])
-        mem_calldata = callsite_state.memory.readn(offset, calldata_length)
+        mem_calldata = callsite_state.memory.readn(buffer_offset, calldata_length)
         callsite_state.solver.add_memory_constraint(Equal(sym_calldata, mem_calldata))
 
-        proxy_calldata = callsite_state.solver.eval_memory_at(callsite_state.memory, offset, length)
+        proxy_calldata = callsite_state.solver.eval_memory_at(callsite_state.memory, buffer_offset, buffer_length)
         return proxy_calldata
 
     def format_calldata(self, calldata, block_number):
